@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage ('building stage'){
             steps{
-                echo 'Hello Mefor from github '
+                echo 'Bye Mefor from github '
             }
         }
          stage ('Testing stage'){
@@ -13,7 +13,7 @@ pipeline{
         }
          stage ('Deployment stage'){
             steps{
-                echo 'Hello Fomenky from githun '
+                echo 'Hello Fomenky from github '
             }
         }
     }
