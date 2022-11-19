@@ -1,1 +1,21 @@
+pipeline{
+    agent any
+    stages {
+        stage ('building stage'){
+            steps{
+                echo 'Hello Mefor from github '
+            }
+        }
+         stage ('Testing stage'){
+            steps{
+                echo 'Hello Ivy and Iris from github '
+            }
+        }
+         stage ('Deployment stage'){
+            steps{
+                echo 'Hello Fomenky from githun '
+            }
+        }
+    }
+}
 
