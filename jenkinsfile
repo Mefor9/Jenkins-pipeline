@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage ('building stage'){
             steps{
-                echo 'Bye Mefor from github to test autorun'
+                echo 'Bye Mefor from github to test autorun test again'
             }
         }
          stage ('Testing stage'){
